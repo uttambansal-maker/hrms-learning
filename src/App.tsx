@@ -1,15 +1,5 @@
-import { useState } from 'react'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      
-      
-    </>
-  )
+import React from 'react';
+import HRMSLayout from './components/HRMSLayout';
+export default function App() {
+  return <HRMSLayout activePath="/attendance" section="Workspace" pageName="Attendance" userName="Alex Morgan" userRole="HR Manager" />;
 }
-
-export default App
